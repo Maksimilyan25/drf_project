@@ -66,8 +66,8 @@ DATABASES = {
         'NAME': os.getenv('NAME', 'drfdb'),
         'USER': os.getenv('USER', 'drftestuser'),
         'PASSWORD': os.getenv('PASSWORD', 'Fidafo2611'),
-        'HOST': os.getenv('HOST', 'localhost'),
-        'PORT': os.getenv('PORT', '')
+        'HOST': os.getenv('HOST', 'host.docker.internal'),
+        'PORT': os.getenv('PORT', '5432')
     }
 }
 
